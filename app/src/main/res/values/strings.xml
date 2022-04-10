@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zalo Clone</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="zalo">Zalo</string>
+    <string name="forgot_password">Lấy lại mật khẩu</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="hadAccount">Bạn đã có tài khoản?</string>
+    <string name="next">Tiếp tục</string>
+</resources>
