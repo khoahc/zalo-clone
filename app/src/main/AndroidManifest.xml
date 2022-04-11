@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hcmute.edu.vn.nhom6.zaloclone">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,14 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zaloclone">
         <activity
-            android:name=".activities.ForgotPasswordActivity"
+            android:name=".activities.login.ChangePassword"
             android:exported="false" />
         <activity
-            android:name=".activities.SignUpActivity"
+            android:name=".activities.login.CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".activities.login.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.login.VerifyPhoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".activities.login.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.login.SignUpActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".activities.SignInActivity"
+            android:name=".activities.login.BeforeSignIn"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -36,10 +48,9 @@
             android:name=".firebase.MessagingService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
     </application>
 
 </manifest>

@@ -1,13 +1,11 @@
-package hcmute.edu.vn.nhom6.zaloclone.activities;
+package hcmute.edu.vn.nhom6.zaloclone.activities.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import hcmute.edu.vn.nhom6.zaloclone.R;
 import hcmute.edu.vn.nhom6.zaloclone.databinding.ActivityForgotPasswordBinding;
-import hcmute.edu.vn.nhom6.zaloclone.databinding.ActivitySignInBinding;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
 

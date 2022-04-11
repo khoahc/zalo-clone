@@ -1,12 +1,10 @@
-package hcmute.edu.vn.nhom6.zaloclone.activities;
+package hcmute.edu.vn.nhom6.zaloclone.activities.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import hcmute.edu.vn.nhom6.zaloclone.R;
-import hcmute.edu.vn.nhom6.zaloclone.databinding.ActivitySignInBinding;
 import hcmute.edu.vn.nhom6.zaloclone.databinding.ActivitySignUpBinding;
 
 public class SignUpActivity extends AppCompatActivity {
